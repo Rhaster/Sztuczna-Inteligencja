@@ -11,7 +11,7 @@ print(dataframe)
 #a)
 print("Symbole klas decyzyjnych:",pd.unique(dataframe[1]))
 #b)
-print("Wielkoś klas decyzyjnych:" ,info[2][1])
+print("Wielkoś klas decyzyjnych:" ,info[2][9])
 #c
 print("Min wartość dostępnych atrybutów:")
 for col in dataframe.columns:
