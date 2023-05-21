@@ -131,8 +131,8 @@ def OR_perceptron(x, weight, bias):
 holder_or=[]
 for i in inputs:
     holder_or.append(OR_perceptron(i, weight, bias))
-print(holder_or)
-print(And_hold)
+#print(holder_or)
+#print(And_hold)
 x = []
 for a in range(4):
     x.append([holder_or[a],And_hold[a]])
